@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div
       id="home"
-      className="text-s flex flex-col pt-8 px-4 items-center h-screen bg-cover font-[Poppins] bg-[#0a0a0af6]"
+      className="text-s flex flex-col pt-8 px-4 items-center h-screen bg-cover font-[Poppins] bg-[#0a0a0a]"
     >
       <img
         src={img}
