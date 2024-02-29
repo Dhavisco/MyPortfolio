@@ -12,7 +12,7 @@ const HomePage = () => {
       <img
         src={img}
         alt="David Olaniyi"
-        className="mx-auto w-[14rem] h-[18rem] object-cover border-gray-500 sm:w-48 sm:h-48 "
+        className="mx-auto w-[15rem] h-[20rem] object-cover border-gray-500 sm:w-48 sm:h-48 "
       />
       <h1 className="text-2xl text-center mt-2 font-[Poppins] text-white font-extrabold">
         David Olaniyi
