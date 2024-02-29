@@ -1,6 +1,6 @@
 import Typewriter from 'typewriter-effect'
 import Socials from './Socials';
-import img from "../assets/myimage3.png";
+import img from "../assets/myimage.png";
 import "./HomePage.css"
 
 const HomePage = () => {
@@ -12,9 +12,9 @@ const HomePage = () => {
       <img
         src={img}
         alt="David Olaniyi"
-        className="rounded-3xl mx-auto w-[14rem] h-[16rem] object-cover border-gray-500 shadow-lg sm:w-48 sm:h-48 "
+        className="rounded-3xl mx-auto w-[14rem] h-[18rem] object-cover border-gray-500 shadow-lg sm:w-48 sm:h-48 "
       />
-      <h1 className="text-2xl text-center mt-2 font-[Poppins] text-white font-bold">
+      <h1 className="text-2xl text-center mt-2 font-[Poppins] text-white font-extrabold">
         David Olaniyi
       </h1>
       <div className="mt-2 px-3 py-1 bg-gradient-to-r from-blue-600 to-gray-600 text-white sm:text-sm">
