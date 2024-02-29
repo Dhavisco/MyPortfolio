@@ -12,12 +12,12 @@ const HomePage = () => {
       <img
         src={img}
         alt="David Olaniyi"
-        className="rounded-3xl mx-auto w-[14rem] h-[18rem] object-cover border-gray-500 shadow-lg sm:w-48 sm:h-48 "
+        className="mx-auto w-[14rem] h-[18rem] object-cover border-gray-500 sm:w-48 sm:h-48 "
       />
       <h1 className="text-2xl text-center mt-2 font-[Poppins] text-white font-extrabold">
         David Olaniyi
       </h1>
-      <div className="mt-2 px-3 py-1 bg-gradient-to-r from-blue-600 to-gray-600 text-white sm:text-sm">
+      <div className="mt-2 px-3 bg-gradient-to-r from-blue-600 to-gray-600 text-white sm:text-sm">
         <Typewriter
           options={{ loop: true }}
           onInit={(writer) => {
@@ -38,7 +38,7 @@ const HomePage = () => {
         />
       </div>
 
-      <div className="font-light text-sm text-gray-500 lg:text-xl  lg:w-4/5 py-4 leading-normal text-center flex  justify-center flex-col items-center">
+      <div className="font-light text-sm text-gray-500 lg:text-xl  lg:w-4/5 py-3 leading-normal text-center flex justify-center flex-col items-center">
         I&apos;m a skilled frontend engineer creating efficient and
         user-friendly solutions to enhance productivity.
         <Socials />
