@@ -1,23 +1,23 @@
 import Typewriter from 'typewriter-effect'
 import Socials from './Socials';
-import img from "../assets/myimage.jpg";
+import img from "../assets/myimage3.png";
 import "./HomePage.css"
 
 const HomePage = () => {
   return (
     <div
       id="home"
-      className="text-s flex flex-col pt-12 px-2 items-center h-screen bg-cover font-[Poppins] bg-[#0a0a0af6]"
+      className="text-s flex flex-col pt-8 px-4 items-center h-screen bg-cover font-[Poppins] bg-[#0a0a0af6]"
     >
       <img
         src={img}
         alt="David Olaniyi"
-        className="rounded-3xl mx-auto w-[14rem] h-[14rem] object-cover border-gray-500 shadow-lg sm:w-48 sm:h-48 "
+        className="rounded-3xl mx-auto w-[14rem] h-[16rem] object-cover border-gray-500 shadow-lg sm:w-48 sm:h-48 "
       />
-      <h1 className="text-4xl text-center mt-4 font-[Poppins] text-white font-bold">
+      <h1 className="text-2xl text-center mt-2 font-[Poppins] text-white font-bold">
         David Olaniyi
       </h1>
-      <div className="mt-3 px-3 py-1 bg-gradient-to-r from-blue-600 to-gray-600 text-white sm:text-sm">
+      <div className="mt-2 px-3 py-1 bg-gradient-to-r from-blue-600 to-gray-600 text-white sm:text-sm">
         <Typewriter
           options={{ loop: true }}
           onInit={(writer) => {
