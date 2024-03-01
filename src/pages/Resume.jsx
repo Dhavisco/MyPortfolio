@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Header from "../Resume/Header";
-import Stacks from "../Resume/Stacks";
-import { About } from "../store/data";
+import Header from "../component/Resume/Header";
+import Stacks from "../component/Resume/Stacks";
+import { About } from "../component/store/data";
 import Typewriter from "typewriter-effect";
 
 const Resume = () => {

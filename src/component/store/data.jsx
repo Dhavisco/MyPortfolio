@@ -42,7 +42,7 @@ My specialty is creating solutions with a stack that consists of majorly JavaScr
 `,
   },
   {
-    more: `Through my internship in HR at a consulting firm, I have worked with individuals from a variety of cultural backgrounds and gained experience in developing solutions to fit their unique needs.  I'm driven by a passion for excellence and constantly willing to take on new tasks and broaden my perspectives `,
+    more: `Through my internship in HR at a consulting firm (PwC Nigeria), I have worked with individuals from a variety of cultural backgrounds and gained experience in developing solutions to fit their unique needs.  I'm driven by a passion for excellence and constantly willing to take on new tasks and broaden my perspectives `,
   },
   {
     extra: ` Let's get in touch and discuss how we can use creativity, imagination, and technical expertise to make your projects come to life!`,
