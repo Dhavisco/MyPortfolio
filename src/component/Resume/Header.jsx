@@ -24,7 +24,10 @@ const Header = () => {
             className="flex items-center place-content-center rounded-full lg:h-[11rem] lg:w-[8rem] h-[5rem] w-[4.1rem] cursor-pointer"
             // onClick={modalSwitch}
           />
-          <a className=" font-bold text-3xl lg:text-4xl  cursor-pointer" href="/">
+          <a
+            className=" font-bold text-3xl lg:text-4xl cursor-pointer" style={{fontFamily: "Dancing Script"}}
+            href="/"
+          >
             {" "}
             David Olaniyi{" "}
           </a>
