@@ -1,6 +1,6 @@
 import Typewriter from 'typewriter-effect'
 import Socials from './Socials';
-import img from "../assets/myimage.png";
+import img from "../assets/avatar.png";
 import "./HomePage.css"
 
 const HomePage = () => {
@@ -12,7 +12,7 @@ const HomePage = () => {
           style={{ fontFamily: "Dancing Script" }}
           href="/"
         >
-          David Olaniyi
+          * Davisco
         </a>
       </div>
 
@@ -20,10 +20,10 @@ const HomePage = () => {
         <img
           src={img}
           alt="David Olaniyi"
-          className="flex mx-auto w-[15rem] h-[18rem] md:w-[16rem] md:h-[20rem] object-cover border-gray-500"
+          className="flex mx-auto w-[15rem] h-[18rem] md:w-[10rem] md:h-[14rem] object-cover border-gray-500"
         />
 
-        <h1 className="text-2xl lg:text-5xl text-center mt-2.5 font-[Poppins] text-white font-extrabold">
+        <h1 className="text-2xl lg:text-4xl text-center mt-2.5 font-[Poppins] text-white font-extrabold">
           David Olaniyi
         </h1>
         <div className="mt-2 px-3 bg-gradient-to-r from-blue-600 to-gray-600 text-white sm:text-sm">

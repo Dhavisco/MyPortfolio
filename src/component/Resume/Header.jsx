@@ -16,12 +16,12 @@ const Header = () => {
         <Modal trigger={trigger} />
       </section> */}
 
-      <section className="flex justify-between lg:py-2 pt-12 pb-4 lg:items-center font-[Poppins]">
+      <section className="flex justify-between lg:py-2 pt-6 pb-4 lg:items-center font-[Poppins]">
         <div className="flex flex-col mb-4 gap-y-1">
           <img
             src={img}
             alt="img"
-            className="flex items-center place-content-center rounded-full lg:h-[11rem] lg:w-[8rem] h-[5rem] w-[4.1rem] cursor-pointer"
+            className="flex items-center place-content-center rounded-full lg:h-[11rem] lg:w-[8rem] h-[5rem] w-[4rem] cursor-pointer"
             // onClick={modalSwitch}
           />
           <a
