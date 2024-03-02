@@ -47,7 +47,7 @@ const HomePage = () => {
           />
         </div>
 
-        <div className="font-light text-xs text-gray-500 lg:text-lg sm:w-1/2 py-3 leading-normal text-center flex justify-center flex-col items-center">
+        <div className="font-light text-sm text-gray-500 lg:text-lg sm:w-1/2 py-3 leading-normal text-center flex justify-center flex-col items-center">
           I&apos;m a skilled frontend engineer creating efficient and
           user-friendly solutions to enhance productivity.
           <Socials />

@@ -1,7 +1,7 @@
 const Socials = () => {
   return (
     <div>
-      <div className="flex py-4 space-x-6 sm:mt-0 leading-normal flex-center text-center">
+      <div className="flex py-4 space-x-3 sm:mt-0 leading-normal flex-center text-center">
         <a
           href="https://instagram.com/ayomi_dave"
           className="text-gray-500 hover:text-red-300"
