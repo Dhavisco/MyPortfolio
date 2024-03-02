@@ -1,5 +1,3 @@
-
-
 const Socials = () => {
   return (
     <div>
@@ -53,9 +51,25 @@ const Socials = () => {
           </svg>
           <span className="sr-only">LinkedIn page</span>
         </a>
+
+        <a
+          href="https://linktr.ee/Dhavisco"
+          className="text-gray-500 hover:text-green-600"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            fill="currentColor"
+          >
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.31-3.8c-.44.64-1.08 1.13-1.81 1.39V15h-2v1.59c-.73-.26-1.37-.75-1.81-1.39-.44-.63-.69-1.39-.69-2.2 0-1.66 1.34-3 3-3s3 1.34 3 3c0 .81-.25 1.57-.69 2.2z" />
+          </svg>
+          <span className="sr-only">LinkTree page</span>
+        </a>
       </div>
     </div>
   );
-}
+};
 
-export default Socials
+export default Socials;

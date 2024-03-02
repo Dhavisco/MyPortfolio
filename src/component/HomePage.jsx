@@ -20,7 +20,7 @@ const HomePage = () => {
         <img
           src={img}
           alt="David Olaniyi"
-          className="flex mx-auto w-[15rem] h-[18rem] md:w-[10rem] md:h-[14rem] object-cover border-gray-500"
+          className="flex mx-auto w-[10rem] h-[13rem] md:w-[10rem] md:h-[14rem] object-cover rounded-full border-gray-500"
         />
 
         <h1 className="text-2xl lg:text-4xl text-center mt-2.5 font-[Poppins] text-white font-extrabold">
