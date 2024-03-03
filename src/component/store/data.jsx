@@ -22,14 +22,14 @@ import {
   SiPython,
   SiJavascript,
   SiPhp,
-  SiRadstudio,
+  SiFigma,
   SiHtml5,
   SiVite,
   SiNpm,
   SiGit,
   SiVisualstudiocode,
   SiSqlite,
-  SiWordpress,
+  SiWordpress,SiCplusplus
 } from "react-icons/si";
 
 export const About = [
@@ -155,6 +155,8 @@ export const Certification = [
   },
 ];
 
+export const certLink = "https://www.linkedin.com/in/dhavisco/details/certifications/";
+
 export const Projects = [
   {
     title: "MovieBox",
@@ -208,6 +210,8 @@ export const Projects = [
   },
 ];
 
+export const githubRepo = "https://github.com/Dhavisco?tab=repositories";
+
 export const Recommendations = [
   
   {
@@ -223,26 +227,6 @@ export const Recommendations = [
     title:
       "HR Business Partnering | Talent Acquisition | Performance Management | HRIS Analyst | HR Analytics",
     desc: "David is a smart, hardworking, and caring individual who takes initiative. He is a fast learner and is not afraid to ask questions for clarity. He is a reliable team player and the go-to person for tasks. During his time with us, he has shown significant personal growth and development. He makes use of his IT expertise to improve efficiency in his work and he consistently embodies PwC's values. He was a great addition to the team during his internship. I’m looking forward to your future wins",
-  },
-  {
-    name: "Ajayi Samuel",
-    date: "September 11, 2023",
-    title: "CMD at PwC Nigeria",
-    desc: "David is a smart, hardworking, and caring individual who takes initiative. He is a fast learner and is not afraid to ask questions for clarity. He is a reliable team player and the go-to person for tasks. During his time with us, he has shown significant personal growth and development. He makes use of his IT expertise to improve efficiency in his work and he consistently embodies PwC's values. He was a great addition to the team during his internship. I’m looking forward to your future wins",
-  },
-
-  {
-    name: "Mariam Seidun",
-    date: "August 17, 2023",
-    title: "Finance Associate",
-    desc: "David is an exceptional colleague, he is a team player and displayed leadership attributes.",
-  },
-
-  {
-    name: "Ademolu Adediran",
-    date: "August 12, 2023",
-    title: "Snr. HR Associate @ PwC",
-    desc: "David interned at the Human Capital unit at Pwc Nigeria. In his time in the unit, David demonstrated committment and dedication to his work, he always had a positive attitude to work and had a good relationship with other members of staff. This made him deliver good results on his various tasks. I strongly recommend.",
   },
 
   {
@@ -262,15 +246,8 @@ export const Recommendations = [
   {
     name: "Folajomi Agoro",
     date: "August 2, 2023",
-    title: "Human Resources Generalist",
+    title: "Senior Associate Facility | Project Management | Building Data Analyst | Freelance Writer | Sports Enthusiast",
     desc: "David Olaniyi is hard working, team oriented and always provided prompt feedback on assigned tasks when necessary. I had the pleasure of working with him in a number of cross departmental engagements for a year and I will highly recommend him for any future roles as he is always willing to learn and improve.",
-  },
-
-  {
-    name: "Komolafe Olukayode Folabi ACIPM, HRPL",
-    date: "August 1, 2023",
-    title: "Human Resources Business Partner at PwC Nigeria",
-    desc: "David worked on my team and he was highly resourceful. I will recommend him for higher roles and responsibilities.",
   },
 ];
 
@@ -344,9 +321,9 @@ export const tools = [
     icon: <SiVisualstudiocode />,
   },
   {
-    name: "RAD",
+    name: "Figma",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    icon: <SiRadstudio />,
+    icon: <SiFigma />,
   },
   {
     name: "Next Js",
@@ -372,6 +349,12 @@ export const tools = [
     name: "WordPress",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     icon: <SiWordpress />,
+  },
+
+  {
+    name: "C++",
+    svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+    icon: <SiCplusplus/>,
   },
 ];
 

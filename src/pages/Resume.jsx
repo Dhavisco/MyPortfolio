@@ -1,9 +1,20 @@
 import { useState } from "react";
 import Header from "../component/Resume/Header";
 import Stacks from "../component/Resume/Stacks";
-import { About, Experiences, Education, Certification, Projects, Recommendations, Recomlink, tools } from "../component/store/data";
+import {
+  About,
+  Experiences,
+  Education,
+  Certification,
+  Projects,
+  Recommendations,
+  Recomlink,
+  tools,
+  certLink,
+  githubRepo,
+} from "../component/store/data";
 import Typewriter from "typewriter-effect";
-import {FaExternalLinkAlt, FaRegArrowAltCircleUp} from "react-icons/fa";
+import { FaExternalLinkAlt, FaRegArrowAltCircleUp } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Navigation,
@@ -14,21 +25,21 @@ import {
 } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
-import Footer from "../component/Footer";
+import Footer from "../component/Resume/Footer";
 
 const Resume = () => {
   const [trigger, setTrigger] = useState();
 
-     const [back2Top, setBack2Top] = useState();
+  const [back2Top, setBack2Top] = useState();
 
-     function scrollHandler() {
-       if (window.scrollY >= 250) {
-         setBack2Top(true);
-       } else {
-         setBack2Top(false);
-       }
-     }
-     window.addEventListener("scroll", scrollHandler);
+  function scrollHandler() {
+    if (window.scrollY >= 250) {
+      setBack2Top(true);
+    } else {
+      setBack2Top(false);
+    }
+  }
+  window.addEventListener("scroll", scrollHandler);
   return (
     <>
       <section
@@ -52,24 +63,24 @@ const Resume = () => {
                     options={{ loop: true }}
                     onInit={(writer) => {
                       writer.typeString(
-                        "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt"
+                        "The best way to predict your future is to create it. - Abraham Lincoln"
                       );
                       writer.pauseFor(5000);
                       writer.deleteAll();
 
                       writer.typeString(
-                        "Your attitude determines your altitude. Rise above the challenges with a positive mindset and soar to new heights. - Zig Ziglar"
+                        "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill"
                       );
                       writer.pauseFor(5000);
                       writer.deleteAll();
                       writer.typeString(
-                        "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D.Roosevelt"
+                        "What lies behind us and what lies before us are tiny matters compared to what lies within us. - Ralph Waldo Emerson"
                       );
                       writer.pauseFor(5000);
                       writer.deleteAll();
 
                       writer.typeString(
-                        "Don't watch the clock; do what it does. Keep going. - Sam Levenson"
+                        "I can't change the direction of the wind, but I can adjust my sails to always reach my destination. - Jimmy Dean"
                       );
                       writer.pauseFor(5000).start();
                     }}
@@ -158,8 +169,11 @@ const Resume = () => {
 
           <section className="" id="Certification">
             <p className="text-xl md:text-2xl font-bold py-4 uppercase">
-              Certification
+              <a href={certLink} className="hover:text-green-600">
+                Certification
+              </a>
             </p>
+
             <div className="pb-4 md:pb-8 pl-2">
               {Certification.map((value, index) => (
                 <div key={index} className="text-sm">
@@ -179,8 +193,10 @@ const Resume = () => {
             </div>
           </section>
           <section className="" id="Project">
-            <p className=" text-xl md:text-2xl font-bold py-4 uppercase">
-              Project
+            <p className="text-xl md:text-2xl font-bold py-4 uppercase">
+              <a href={githubRepo} className="hover:text-green-600">
+                Project
+              </a>
             </p>
             <div className="pb-4 md:pb-8 pl-2">
               {Projects.map((value, index) => (
@@ -249,6 +265,13 @@ const Resume = () => {
                   <hr className="my-4 h-[0px]" />
                 </div>
               ))}
+              <a href={Recomlink}>
+                <input
+                  type="button"
+                  value="Readmore..."
+                  className="md:text-lg text-sm cursor-pointer font-bold"
+                />
+              </a>
             </div>
           </section>
 

@@ -63,7 +63,7 @@ const HomePage = () => {
             </span>
           </a>
           <a
-            href={"/"}
+            href={"/contact"}
             className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-blue-600 to-gray-500 group-hover:from-blue-600 group-hover:to-gray-500 hover:text-white focus:ring-2 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-sm"
           >
             <span className="relative text-sm font-extralight px-5 py-2.5 transition-all ease-in duration-75 bg-[#242424] dark:bg-[#242424] rounded-md group-hover:bg-opacity-0 text-white">
