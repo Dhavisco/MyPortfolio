@@ -121,7 +121,7 @@ const Resume = () => {
             <div className="md:pb-8 pb-4 pl-2">
               {Experiences.map((value, index) => (
                 <div key={index} className="text-sm">
-                  <div>{value.date}</div>
+                  <div className="font-light">{value.date}</div>
                   <div className="font-medium text-base md:text-lg uppercase">
                     {value.institution}
                   </div>
@@ -142,7 +142,7 @@ const Resume = () => {
             <div className="pb-4 md:pb-8 pl-2">
               {Education.map((value, index) => (
                 <div key={index} className="text-sm">
-                  <div>{value.date}</div>
+                  <div className="font-light">{value.date}</div>
                   <div className="font-medium text-base md:text-lg uppercase">
                     {value.institution}
                   </div>
@@ -163,7 +163,7 @@ const Resume = () => {
             <div className="pb-4 md:pb-8 pl-2">
               {Certification.map((value, index) => (
                 <div key={index} className="text-sm">
-                  <div>{value.date}</div>
+                  <div className="font-light">{value.date}</div>
                   <div className="font-medium text-base md:text-lg uppercase">
                     <a href={value.link} className="hover:text-green-600">
                       {value.course}
@@ -238,7 +238,7 @@ const Resume = () => {
             <div className="pb-4 md:pb-8 pl-2">
               {Recommendations.map((value, index) => (
                 <div key={index} className="text-sm">
-                  <div>{value.date}</div>
+                  <div className="font-light">{value.date}</div>
                   <div className="font-medium text-base md:text-lg uppercase">
                     {value.name}
                   </div>

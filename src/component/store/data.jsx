@@ -87,7 +87,7 @@ export const Experiences = [
   },
   {
     institution: "HNG Internship · Internship",
-    date: "Sep-2023 - Oct-2023",
+    date: "Sep 2023 - Oct 2023",
     title: "Frontend Engineer",
     skills: "Collaboration  · Analytical Skills · Frontend Development",
     description:
@@ -105,14 +105,14 @@ export const Experiences = [
   },
   {
     institution: "Soft Nobel Technology",
-    date: "Jan-2021 - Aug-2022",
+    date: "Jan 2021 - Aug 2022",
     title: "Frontend Developer, UI/UX Designer",
     skills: "Systems Design · Analytical Skills · User Interface Design",
     description: " ",
   },
   {
     institution: "Federal Institute of Industrial Research, Oshodi - FIIRO",
-    date: "Aug-2021 - Nov-2021",
+    date: "Aug 2021 - Nov 2021",
     title: "Computer Science",
     skills:
       "Web Design · Workspace · Analytical Skills · User Interface Design",
