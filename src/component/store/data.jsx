@@ -1,36 +1,36 @@
 import { BsPuzzle } from "react-icons/bs";
 import { TbWritingSign } from "react-icons/tb";
 import {
-  //   FaXTwitter,
-  //   FaMedium,
-  //   FaDev,
-  //   FaLinkedinIn,
-  //   FaGithub,
+    FaXTwitter,
+    FaLinkedinIn,
+    FaGithub,
   FaReact,
   FaRankingStar,
   FaPalette,
-  //   FaCss3,
+    FaCss3,
+    FaInstagram,
+    FaLink,
 } from "react-icons/fa6";
-// import {
-//   SiTailwindcss,
-//   SiNextdotjs,
-//   SiReact,
-//   SiTypescript,
-//   SiBootstrap,
-//   SiFirebase,
-//   SiMongodb,
-//   SiPython,
-//   SiJavascript,
-//   SiPhp,
-//   SiRadstudio,
-//   SiHtml5,
-//   SiVite,
-//   SiNpm,
-//   SiGit,
-//   SiVisualstudiocode,
-//   SiSqlite,
-//   SiWordpress,
-// } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiReact,
+  SiTypescript,
+  SiBootstrap,
+  SiFirebase,
+  SiMongodb,
+  SiPython,
+  SiJavascript,
+  SiPhp,
+  SiRadstudio,
+  SiHtml5,
+  SiVite,
+  SiNpm,
+  SiGit,
+  SiVisualstudiocode,
+  SiSqlite,
+  SiWordpress,
+} from "react-icons/si";
 
 export const About = [
   {
@@ -124,7 +124,7 @@ export const Experiences = [
 export const Education = [
   {
     institution: "Yaba College of Technology, Yaba, Lagos ",
-    date: "May 2023 Tilldate",
+    date: "May 2023 - Present",
     title: "Higher National Diploma, Computer Science",
     grade: "",
   },
@@ -209,7 +209,197 @@ export const Projects = [
 ];
 
 export const Recommendations = [
+  
   {
+    name: "Busola Francisca Martins PHRi, ACIPM",
+    date: "December 8, 2023",
+    title: "Human Resource Generalist",
+    desc: "The first thing that caught my attention when David started his internship was his willingness and readiness to learn. He also impressed me with his proactiveness and initiative. He always gave update on tasks assigned to him and he never considered any task beyond his capabilities. I am confident that David will have a bright future in his chosen career path and he will be an asset to any employer.",
+  },
 
-  }
+  {
+    name: "Idanesi Igwonobe",
+    date: "October 13, 2023",
+    title:
+      "HR Business Partnering | Talent Acquisition | Performance Management | HRIS Analyst | HR Analytics",
+    desc: "David is a smart, hardworking, and caring individual who takes initiative. He is a fast learner and is not afraid to ask questions for clarity. He is a reliable team player and the go-to person for tasks. During his time with us, he has shown significant personal growth and development. He makes use of his IT expertise to improve efficiency in his work and he consistently embodies PwC's values. He was a great addition to the team during his internship. I’m looking forward to your future wins",
+  },
+  {
+    name: "Ajayi Samuel",
+    date: "September 11, 2023",
+    title: "CMD at PwC Nigeria",
+    desc: "David is a smart, hardworking, and caring individual who takes initiative. He is a fast learner and is not afraid to ask questions for clarity. He is a reliable team player and the go-to person for tasks. During his time with us, he has shown significant personal growth and development. He makes use of his IT expertise to improve efficiency in his work and he consistently embodies PwC's values. He was a great addition to the team during his internship. I’m looking forward to your future wins",
+  },
+
+  {
+    name: "Mariam Seidun",
+    date: "August 17, 2023",
+    title: "Finance Associate",
+    desc: "David is an exceptional colleague, he is a team player and displayed leadership attributes.",
+  },
+
+  {
+    name: "Ademolu Adediran",
+    date: "August 12, 2023",
+    title: "Snr. HR Associate @ PwC",
+    desc: "David interned at the Human Capital unit at Pwc Nigeria. In his time in the unit, David demonstrated committment and dedication to his work, he always had a positive attitude to work and had a good relationship with other members of staff. This made him deliver good results on his various tasks. I strongly recommend.",
+  },
+
+  {
+    name: "Ebenezer Akintomide",
+    date: "August 12, 2023",
+    title: "HR Manager at Cowrywise",
+    desc: "David is very proactive. He anticipates needs and works to meet them. He is a self starter that is willing to put in the time and work required to get things done.",
+  },
+
+  {
+    name: "Anuli Adelekan",
+    date: "August 3, 2023",
+    title: "Human Resources Generalist",
+    desc: "David is an extremely diligent worker with an exceptional work ethic; he effortlessly adapts to any given scenario, and I found him to be highly skilled. What makes him stand out is his willingness to help others, He is highly recommended and an excellent team member.",
+  },
+
+  {
+    name: "Folajomi Agoro",
+    date: "August 2, 2023",
+    title: "Human Resources Generalist",
+    desc: "David Olaniyi is hard working, team oriented and always provided prompt feedback on assigned tasks when necessary. I had the pleasure of working with him in a number of cross departmental engagements for a year and I will highly recommend him for any future roles as he is always willing to learn and improve.",
+  },
+
+  {
+    name: "Komolafe Olukayode Folabi ACIPM, HRPL",
+    date: "August 1, 2023",
+    title: "Human Resources Business Partner at PwC Nigeria",
+    desc: "David worked on my team and he was highly resourceful. I will recommend him for higher roles and responsibilities.",
+  },
+];
+
+export const Recomlink =
+  "https://www.linkedin.com/in/dhavisco/details/recommendations/?detailScreenTabIndex=0";
+
+export const tools = [
+  {
+    name: "React",
+    svg: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+    icon: <SiReact />,
+  },
+  {
+    name: "Python",
+    svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    icon: <SiPython />,
+  },
+  {
+    name: "JavaScript",
+    svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+    icon: <SiJavascript />,
+  },
+  {
+    name: "TypeScript",
+    svg: "https://raw.githubusercontent.com/wappalyzer/wappalyzer/master/src/drivers/webextension/images/icons/TypeScript.svg",
+    icon: <SiTypescript />,
+  },
+  {
+    name: "PHP",
+    svg: "https://www.vectorlogo.zone/logos/php/php-icon.svg",
+    icon: <SiPhp />,
+  },
+  {
+    name: "HTML",
+    svg: "https://raw.githubusercontent.com/uiwjs/file-icons/master/icon/html.svg",
+    icon: <SiHtml5 />,
+  },
+  {
+    name: "CSS",
+    svg: "https://raw.githubusercontent.com/manuelbieh/logo-file-icons/master/icons/css.svg",
+    icon: <FaCss3 />,
+  },
+  {
+    name: "TailwindCss",
+    svg: "https://raw.githubusercontent.com/bestofjs/bestofjs-webui/master/public/logos/tailwindcss.dark.svg",
+    icon: <SiTailwindcss />,
+  },
+  {
+    name: "Bootstrap",
+    svg: "https://raw.githubusercontent.com/get-icon/geticon/master/icons/bootstrap.svg",
+    icon: <SiBootstrap />,
+  },
+  {
+    name: "Vite",
+    svg: "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/vitejs.svg",
+    icon: <SiVite />,
+  },
+  {
+    name: "Git",
+    svg: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_git2.svg",
+    icon: <SiGit />,
+  },
+  {
+    name: "NPM",
+    svg: "https://raw.githubusercontent.com/leungwensen/svg-icon/master/dist/svg/logos/npm.svg",
+    icon: <SiNpm />,
+  },
+  {
+    name: "VsCode",
+    svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+    icon: <SiVisualstudiocode />,
+  },
+  {
+    name: "RAD",
+    svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+    icon: <SiRadstudio />,
+  },
+  {
+    name: "Next Js",
+    svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+    icon: <SiNextdotjs />,
+  },
+  {
+    name: "FireBase",
+    svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+    icon: <SiFirebase />,
+  },
+  {
+    name: "Mongo Db",
+    svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+    icon: <SiMongodb />,
+  },
+  {
+    name: "SQL",
+    svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+    icon: <SiSqlite />,
+  },
+  {
+    name: "WordPress",
+    svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+    icon: <SiWordpress />,
+  },
+];
+
+export const socials = [
+  {
+    name: "LinkedIn",
+    icon: <FaLinkedinIn className="text-[#0072b1] hover:text-[#0073b1c7]" />,
+    link: "https://linkedin.com/in/dhavisco",
+  },
+  {
+    name: "Twitter",
+    icon: <FaXTwitter className="text-sky-500 hover:text-sky-700" />,
+    link: "https://twitter.com/olaniyidaviday1",
+  },
+  {
+    name: "Github",
+    icon: <FaGithub className="text-gray-500 hover:text-gray-700" />,
+    link: "https://github.com/dhavisco",
+  },
+  {
+    name: "linkTree",
+    icon: <FaLink className="text-green-400 hover:text-green-700" />,
+    link: "https://linktr.ee/Dhavisco",
+  },
+  {
+    name: "instagram",
+    icon: <FaInstagram className="text-red-300 hover:text-red-600" />,
+
+    link: "https://instagram.com/ayomi_dave",
+  },
 ];
