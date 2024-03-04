@@ -28,10 +28,10 @@ const Header = () => {
             {" "}
             <span>
               {" "}
-              <Link to="/" className="cursor-pointer hover:text-green-500">
+              <Link to="/" className="cursor-pointer hover:text-green-500 transition-colors duration-300 ease-in-out">
                 @Davisco
               </Link>{" "}
-              &nbsp;¤ &nbsp;Lagos, Nigeria.{" "}
+              <span className="text-green-500">&nbsp;¤ &nbsp;Lagos, Nigeria. </span>
             </span>
           </div>
         </div>

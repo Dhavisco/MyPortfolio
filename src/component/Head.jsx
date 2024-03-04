@@ -1,43 +1,46 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
+import Loading from "../Loading";
 function Head() {
   const [toggle, setToggle] = useState(true);
-  // const [active, setActive] = useState();
+  const [loading, setLoading] = useState(true);
 
-  const [updateNavbar, setUpdateNavbar] = useState();
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      setUpdateNavbar(true);
-    } else {
-      setUpdateNavbar(false);
-    }
-  }
-  window.addEventListener("scroll", scrollHandler);
+useEffect(() => {
+  const timer = setTimeout(() => setLoading(false), 2000);
+
+  return () => clearTimeout(timer);
+}, []);
+
+if (loading) {
+  return <Loading />;
+}
+
+
+ 
 
   return (
     <>
       <nav
         className={
-          updateNavbar
-            ? " w-screen fixed z-50  bg-opacity-[0.9]  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-4 shadow-md"
-            : " w-screen fixed bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-4 shadow-md z-50"
+            " w-screen fixed bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-4 shadow-md z-50"
         }
       >
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
           <Link to="/" className="flex items-center">
             <span
-              className="self-center text-2xl font-semibold whitespace-nowrap text-white brandname"
+              className="self-center text-2xl font-semibold whitespace-nowrap text-white hover:text-green-400 brandname transition-colors duration-300 ease-in-out"
               style={{ fontFamily: "Dancing Script" }}
             >
-              * Davisco
+              <span className="text-green-400 hover:text-white transition-colors duration-300 ease-in-out">
+                *
+              </span>{" "}
+              Davisco
             </span>
           </Link>
           <div className="flex items-center md:order-2">
-            
             <button
               type="button"
-              className="inline-flex items-center p-2 ml-1 text-sm text-blue-600 rounded-lg md:hidden outline-none focus:outline-none hover:text-gray-700"
+              className="inline-flex items-center p-2 ml-1 text-sm text-green-600 rounded-lg md:hidden outline-none focus:outline-none hover:text-gray-700 transition-colors duration-300 ease-in-out"
               onClick={() => {
                 setToggle(!toggle);
               }}
@@ -65,17 +68,16 @@ function Head() {
               <li>
                 <Link
                   to="/"
-                  className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-white border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#242424]"
+                  className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-white border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-green-600 md:p-0  md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-green-500 md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#242424] transition-colors duration-300 ease-in-out"
                 >
                   Home
-                  
                 </Link>
               </li>
               <li>
                 <Link
                   to="/resume"
                   id="mega-menu-dropdown-a"
-                  className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-white border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#242424]"
+                  className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-white border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-green-600 md:p-0  md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-green-500 md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#242424] transition-colors duration-300 ease-in-out"
                 >
                   Resume
                 </Link>
@@ -84,7 +86,7 @@ function Head() {
               <li>
                 <Link
                   to="/contact"
-                  className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#242424]"
+                  className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent  md:hover:text-green-600 md:p-0  md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-green-500 md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#242424] transition-colors duration-300 ease-in-out"
                 >
                   Contact
                 </Link>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Header from "../component/Resume/Header";
 import Stacks from "../component/Resume/Stacks";
 import {
@@ -26,11 +26,23 @@ import {
 import "swiper/css";
 import "swiper/css/autoplay";
 import Footer from "../component/Resume/Footer";
+import Loading from "../Loading";
 
 const Resume = () => {
   const [trigger, setTrigger] = useState();
 
   const [back2Top, setBack2Top] = useState();
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loading />;
+  }
 
   function scrollHandler() {
     if (window.scrollY >= 250) {
@@ -119,7 +131,7 @@ const Resume = () => {
                   }}
                   type="button"
                   value="Readmore..."
-                  className="text-md cursor-pointer font-bold py-3"
+                  className="text-md hover:text-green-400 cursor-pointer font-bold py-3 transition-colors duration-300 ease-in-out"
                 />
               </>
             )}
@@ -190,6 +202,13 @@ const Resume = () => {
                   <hr className="my-4 h-[0px]" />
                 </div>
               ))}
+              <a href={Recomlink}>
+                <input
+                  type="button"
+                  value="Readmore..."
+                  className="md:text-lg hover:text-green-400 text-sm cursor-pointer font-bold transition-colors duration-200 ease-in-out"
+                />
+              </a>
             </div>
           </section>
           <section className="" id="Project">
@@ -269,7 +288,7 @@ const Resume = () => {
                 <input
                   type="button"
                   value="Readmore..."
-                  className="md:text-lg text-sm cursor-pointer font-bold"
+                  className="md:text-lg hover:text-green-400 text-sm cursor-pointer font-bold transition-colors duration-200 ease-in-out"
                 />
               </a>
             </div>

@@ -1,13 +1,31 @@
 import { useForm, ValidationError } from "@formspree/react";
+import { formspreeId } from "../store/data";
+import { useEffect } from "react";
+import PropTypes from "prop-types";
+import img from "../../assets/avatar.png";
 
-const ContactForm = () => {
+const ContactForm = ({ onSuccess }) => {
+  const formId = formspreeId[0].id;
+  const [state, handleSubmit] = useForm(formId);
 
-const formId = import.meta.env.REACT_APP_FORMSPREE_ID;
-
-  const [state, handleSubmit] = useForm(`${formId}`);
+   useEffect(() => {
+     if (state.succeeded) {
+       onSuccess();
+     }
+   }, [state.succeeded, onSuccess]);
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return (
+      <>
+        <p className="font-[Poppins] lg:text-base text-sm font-light text-left">
+          Thanks for Reaching out! I will respond as soon as possible
+        </p>
+        <div className="flex justify-center mt-7">
+          <img src={img} alt="" className="h-[17rem] rounded-full" />
+        </div>
+      </>
+    );
   }
+
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
       <div className="flex flex-col font-[Poppins] items-center gap-y-5 gap-x-6 [&>*]:w-full sm:flex-row">
@@ -61,7 +79,7 @@ const formId = import.meta.env.REACT_APP_FORMSPREE_ID;
       />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button
-        className="w-full px-4 py-2 text-white font-medium bg-gradient-to-r from-blue-600 to-gray-500 group-hover:from-blue-600 group-hover:to-gray-500 focus:ring-blue-300 dark:focus:ring-blue-800 shadow-sm hover:first-line:bg-gradient-to-l hover:from-gray-600 hover:to-blue-500 active:bg-indigo-600 rounded-lg duration-150 "
+        className="w-full px-4 py-2 text-white font-medium bg-gradient-to-r from-green-600 to-gray-500 group-hover:from-green-600 group-hover:to-gray-500 focus:ring-blue-300 dark:focus:ring-green-800 shadow-sm hover:first-line:bg-gradient-to-l hover:from-green-600 hover:to-green-500 active:bg-green-600 rounded-lg duration-150 "
         type="submit"
         disabled={state.submitting}
       >
@@ -69,7 +87,11 @@ const formId = import.meta.env.REACT_APP_FORMSPREE_ID;
       </button>
     </form>
   );
-}
+};
+
+ContactForm.propTypes = {
+  onSuccess: PropTypes.func.isRequired,
+};
 
 export default ContactForm;
 

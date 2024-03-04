@@ -5,10 +5,10 @@ const Footer = () => {
     <section>
       <hr className="my-9 " />
       <div className="lg:text-lg text-sm mt-2 flex flex-col lg:flex-row md:flex-row gap-y-6  lg:justify-between md:justify-between justify-center items-center">
-        <p className="hover:text-green-400 cursor-pointer">
+        <p className="hover:text-green-400 cursor-pointer transition-colors duration-300 ease-in-out">
           <a href={"/"}>David Olaniyi ❤ ¤ &nbsp; Lagos, Nigeria.</a>
         </p>
-        <p className="flex lg:text-md">
+        <p className="flex lg:text-md ">
           {socials.map((value, index) => (
             <a
               key={index}
