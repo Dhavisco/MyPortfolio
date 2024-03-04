@@ -1,6 +1,7 @@
 import { SiBuymeacoffee } from "react-icons/si";
 
 import img from "../../assets/myimage.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -15,36 +16,36 @@ const Header = () => {
             alt="img"
             className="flex items-center place-content-center rounded-full lg:h-[11rem] lg:w-[8rem] h-[5rem] w-[4rem] cursor-pointer"
           />
-          <a
+          <Link
+            to="/"
             className=" font-bold text-3xl lg:text-4xl cursor-pointer"
             style={{ fontFamily: "Dancing Script" }}
-            href="/"
           >
             {" "}
             David Olaniyi{" "}
-          </a>
+          </Link>
           <div className="lg:text-md md:text-sm text-[.5em] font-bold lg:font-semibold">
             {" "}
             <span>
               {" "}
-              <a href="#" className="cursor-pointer hover:text-green-500">
+              <Link to="/" className="cursor-pointer hover:text-green-500">
                 @Davisco
-              </a>{" "}
+              </Link>{" "}
               &nbsp;¤ &nbsp;Lagos, Nigeria.{" "}
             </span>
           </div>
         </div>
         <div className="flex  gap-y-2 lg:items-center items-start font-['Inter']">
           <div className="flex justify-center items-center  ">
-            <a
-              href={"/contact"}
+            <Link
+              to="/contact"
               className="w-max items-center gap-3 relative flex justify-center p-0.5 mb-2 mr-2 overflow-hidden cursor-pointer
                          font-medium rounded-full  py-2 hover:ring-green-900 transition-all ease-in-out hover:ring-2 border  ring-gray-300 hover:scale-95 active:scale-90"
             >
               <span className="w-max items-center gap-2 flex px-5  transition-all ease-in duration-75  rounded-md group-hover:bg-opacity-0 lg:text-md text-xs">
                 Hire Me
               </span>
-            </a>
+            </Link>
           </div>
           <div className="lg:block hidden">
             <a

@@ -2,18 +2,19 @@ import Typewriter from 'typewriter-effect'
 import Socials from './Socials';
 import img from "../assets/avatar.png";
 import "./HomePage.css"
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
     <div id="home" className=" pt-8 md:pt-4 px-6 bg-[#000000] h-screen">
       <div>
-        <a
+        <Link
+          to="/"
           className=" font-bold text-xl text-white lg:text-3xl cursor-pointer"
           style={{ fontFamily: "Dancing Script" }}
-          href="/"
         >
           * Davisco
-        </a>
+        </Link>
       </div>
 
       <div className="text-s flex flex-col items-center bg-cover font-[Poppins]">
