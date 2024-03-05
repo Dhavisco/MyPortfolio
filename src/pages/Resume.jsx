@@ -260,6 +260,13 @@ const Resume = () => {
                   <hr className="my-4 h-[0px]" />
                 </div>
               ))}
+              <a href={githubRepo}>
+                <input
+                  type="button"
+                  value="More Projects..."
+                  className="md:text-lg hover:text-green-400 text-sm cursor-pointer font-bold transition-colors duration-200 ease-in-out"
+                />
+              </a>
             </div>
           </section>
 
