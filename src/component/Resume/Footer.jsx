@@ -1,4 +1,5 @@
 import { socials } from "../store/data";
+import img from "../../assets/Davisco.jpg"
 
 const Footer = () => {
   return (
@@ -8,6 +9,7 @@ const Footer = () => {
         <p className="hover:text-green-400 cursor-pointer transition-colors duration-300 ease-in-out">
           <a href={"/"}>David Olaniyi ❤ ¤ &nbsp; Lagos, Nigeria.</a>
         </p>
+        <img src={img} alt="" className="w-[8rem]" />
         <p className="flex lg:text-md ">
           {socials.map((value, index) => (
             <a
