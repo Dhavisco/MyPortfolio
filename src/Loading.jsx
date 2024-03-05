@@ -9,7 +9,7 @@ function Loading() {
       <div className="flex-1 text-center pt-2 justify-center items-center flex relative flex-col">
         <img
           src={img}
-          alt="loader"
+          alt="loader" loading="lazy"
           className="w-[30%] lg:w-[14rem] lg:h-[16rem] ml-2"
         />{" "}
         <RiLoader2Fill className="text-white mt-2 animate-spin" />
