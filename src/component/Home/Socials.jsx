@@ -1,4 +1,4 @@
-import { socials } from "./store/data";
+import { socials } from "../store/data";
 
 const Socials = () => {
   return (

@@ -35,7 +35,7 @@ const Resume = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000);
+    const timer = setTimeout(() => setLoading(false), 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -66,10 +66,10 @@ const Resume = () => {
             <Stacks />
           </section>
 
-          <section className=" my-6 md:my-12 text-md" id="quote">
+          <section className=" my-6 pt-2 md:my-12 text-md" id="quote">
             <div className="quote h-14">
               <span className=" mb-5 lg:text-3xl flex  sm:text-2xl md:text-2xl font-extralight font-[Poppins] lg:text-justify items-center text-center justify-center lg:justify-normal">
-                <span className="flex  px-6 sm:text-sm text-xs italic gap-1">
+                <span className="flex  px-4 sm:text-sm text-xs italic gap-1">
                   {" "}
                   <Typewriter
                     options={{ loop: true }}

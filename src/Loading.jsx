@@ -6,7 +6,7 @@ function Loading() {
       role="status"
       className="flex items-center place-content-center bg-black h-screen w-screen relative"
     >
-      <div className="flex-1 text-center pt-5 justify-center items-center flex relative flex-col">
+      <div className="flex-1 text-center pt-2 justify-center items-center flex relative flex-col">
         <img
           src={img}
           alt="loader"

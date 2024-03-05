@@ -1,23 +1,23 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import HomePage from "./component/HomePage";
+import HomePage from "./component/Home/HomePage";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import { useEffect, useState } from "react";
 import Loading from "./Loading";
 
 function App() {
-const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
-useEffect(() => {
-const timer = setTimeout(() => setLoading(false), 2000);
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1000);
 
-return () => clearTimeout(timer);
-}, []);
+    return () => clearTimeout(timer);
+  }, []);
 
-if (loading) {
-  return <Loading />;
-}
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <>

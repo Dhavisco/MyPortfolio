@@ -1,28 +1,25 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Loading from "../Loading";
+import Loading from "../../Loading";
 function Head() {
   const [toggle, setToggle] = useState(true);
   const [loading, setLoading] = useState(true);
 
-useEffect(() => {
-  const timer = setTimeout(() => setLoading(false), 2000);
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1000);
 
-  return () => clearTimeout(timer);
-}, []);
+    return () => clearTimeout(timer);
+  }, []);
 
-if (loading) {
-  return <Loading />;
-}
-
-
- 
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <>
       <nav
         className={
-            " w-screen fixed bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-4 shadow-md z-50"
+          " w-screen fixed bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-4 shadow-md z-50"
         }
       >
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">

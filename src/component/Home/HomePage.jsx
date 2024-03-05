@@ -1,15 +1,15 @@
-import Typewriter from 'typewriter-effect'
-import Socials from './Socials';
-import img from "../assets/bitmoji.png";
-import "./HomePage.css"
-import { Link } from 'react-router-dom';
-import Loading from '../Loading';
-import { useState, useEffect } from 'react';
+import Typewriter from "typewriter-effect";
+import Socials from "./Socials";
+import img from "../../assets/bitmoji.png";
+import "./HomePage.css";
+import { Link } from "react-router-dom";
+import Loading from "../../Loading";
+import { useState, useEffect } from "react";
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000);
+    const timer = setTimeout(() => setLoading(false), 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -92,4 +92,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage
+export default HomePage;

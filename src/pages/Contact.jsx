@@ -1,12 +1,9 @@
-import Head from "../component/Head";
+import Head from "../component/Contact/Head";
 import ContactForm from "../component/Contact/ContactForm";
 import { useState } from "react";
 
-
 const Contact = () => {
- 
-   const [isSubmitted, setIsSubmitted] = useState(false);
-
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   return (
     <main className="bg-black h-screen max-h-content">
@@ -36,5 +33,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-
