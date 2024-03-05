@@ -68,7 +68,7 @@ const Resume = () => {
 
           <section className=" my-6 md:my-12 text-md" id="quote">
             <div className="quote h-14">
-              <span className=" mb-5 lg:text-3xl flex  sm:text-2xl md:text-2xl  lg:text-justify items-center text-center justify-center lg:justify-normal">
+              <span className=" mb-5 lg:text-3xl flex  sm:text-2xl md:text-2xl font-extralight font-[Poppins] lg:text-justify items-center text-center justify-center lg:justify-normal">
                 <span className="flex  px-6 sm:text-sm text-xs italic gap-1">
                   {" "}
                   <Typewriter
@@ -104,7 +104,7 @@ const Resume = () => {
             {About.map((value, index) => (
               <div
                 key={index}
-                className="font-light tracking-wide leading-5 lg:text-base text-xs"
+                className="font-light tracking-wide leading-5 lg:text-base text-sm"
               >
                 {value.about}
                 {trigger ? (
@@ -202,7 +202,7 @@ const Resume = () => {
                   <hr className="my-4 h-[0px]" />
                 </div>
               ))}
-              <a href={Recomlink}>
+              <a href={certLink}>
                 <input
                   type="button"
                   value="Readmore..."
