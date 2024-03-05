@@ -24,7 +24,7 @@ const Contact = () => {
               </p>
             )}
           </div>
-          <div className="mt-12 max-w-lg mx-auto">
+          <div className="mt-6 max-w-lg mx-auto">
             <ContactForm onSuccess={() => setIsSubmitted(true)} />
           </div>
         </div>
