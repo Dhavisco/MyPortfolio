@@ -159,10 +159,19 @@ export const certLink = "https://www.linkedin.com/in/dhavisco/details/certificat
 
 export const Projects = [
   {
+    title: "ReactMeal",
+    description:
+      "This project is a food ordering application that allows users to select cuisines, check prices, and place orders. The orders are then sent to the respective restaurants for preparation.",
+    technologies: "React.js · JavaScript · HTML · CSS · Firebase",
+    link: "https://reactmealz.vercel.app/",
+    repo: "https://github.com/Dhavisco/Food-Order-App",
+  },
+
+  {
     title: "MovieBox",
     description:
       "MovieBox is a web application that displays information about top-rated movies. Users can explore movie details, including title, release date, genre, and ratings.",
-    technologies: "React · Tailwind CSS · TMDB API",
+    technologies: "React.js · JavaScript · HTML · Tailwind CSS · TMDB API",
     link: "https://movie-box-dhavisco.vercel.app/",
     repo: "https://github.com/Dhavisco/MovieBox",
   },
