@@ -18,6 +18,7 @@ const Contact = () => {
             </h1>
             {!isSubmitted && (
               <p className="font-light text-sm">
+                Do you have a project in mind? Or an idea for a new project?
                 Let&apos;s Connect! Share your thoughts and get in touch using
                 the form below.
               </p>
