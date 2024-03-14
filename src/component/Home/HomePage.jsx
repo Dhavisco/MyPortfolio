@@ -18,7 +18,7 @@ const HomePage = () => {
     return <Loading />;
   }
   return (
-    <div id="home" className=" pt-8 lg:pt-6 px-6 bg-[#000000] h-screen">
+    <div id="home" className="home pt-8 lg:pt-6 px-6 h-screen">
       <div>
         <Link
           to="/"

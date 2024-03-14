@@ -1,3 +1,25 @@
 .text-s{
     letter-spacing: 0.5px;
 }
+
+/* Default background for desktop */
+.home {
+  background-image: url('/src/assets/technology/background-technology-desktop.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/* For tablets (screens smaller than 1024px and larger than 768px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .home {
+    background-image: url('/src/assets/technology/background-technology-tablet.jpg');
+  }
+}
+
+/* For mobile devices (screens smaller than 768px) */
+@media (max-width: 768px) {
+  .home {
+    background-image: url('/src/assets/technology/background-technology-mobile.jpg');
+  }
+}

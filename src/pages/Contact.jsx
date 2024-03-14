@@ -1,12 +1,14 @@
 import Head from "../component/Contact/Head";
 import ContactForm from "../component/Contact/ContactForm";
+import "../App.css"
+
 import { useState } from "react";
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   return (
-    <main className="bg-black h-screen max-h-content">
+    <main className="background h-screen max-h-content">
       <Head />
       <main className="py-14 px-1">
         <div className="max-w-screen-xl mx-auto px-4 text-white md:px-8">
