@@ -75,7 +75,7 @@ const HomePage = () => {
             href={"/resume"}
           >
             <span className="relative text-sm font-extralight px-5 py-2.5 transition-all ease-in duration-75 bg-[#242424] dark:bg-[#242424] rounded-md group-hover:bg-opacity-0 text-white justify">
-              RESUME
+              Resume
             </span>
           </a>
           <a

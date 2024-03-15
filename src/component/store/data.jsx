@@ -26,6 +26,7 @@ import {
   SiHtml5,
   SiVite,
   SiNpm,
+  SiYarn,
   SiGit,
   SiVisualstudiocode,
   SiSqlite,
@@ -202,11 +203,12 @@ export const Projects = [
   },
 
   {
-    title: "Login Page",
-    description: "This Web Application is a demo to practice input validation",
-    technologies: "React.js · JavaScript · HTML · CSS",
-    link: "https://login-page-nine-sage.vercel.app/",
-    repo: "https://github.com/Dhavisco/Login-Page",
+    title: "Space Travel Website",
+    description:
+      "Space Tourism Website project is a front-end website designed to test and improve my skills in responsive web design and modern JavaScript and CSS frameworks, specifically ReactJs and Tailwind CSS. The goal is to build out a Space Tourism Website and get it looking as close to the design as possible, ensuring that the component is responsive and functional across all devices.",
+    technologies: "React.js · Tailwind CSS · JavaScript · HTML · CSS",
+    link: "https://daviscospace-tourism-website.vercel.app/",
+    repo: "https://github.com/Dhavisco/Space-Tourism-Website",
   },
 
   {
@@ -325,6 +327,11 @@ export const tools = [
     icon: <SiNpm />,
   },
   {
+    name: "Yarn",
+    svg: "https://raw.githubusercontent.com/leungwensen/svg-icon/master/dist/svg/logos/npm.svg",
+    icon: <SiYarn />,
+  },
+  {
     name: "VsCode",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     icon: <SiVisualstudiocode />,
@@ -363,7 +370,7 @@ export const tools = [
   {
     name: "C++",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    icon: <SiCplusplus/>,
+    icon: <SiCplusplus />,
   },
 ];
 
