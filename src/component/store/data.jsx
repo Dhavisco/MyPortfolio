@@ -180,7 +180,7 @@ export const Projects = [
     title: "Portfolio",
     description:
       "My portfolio web application serves as a dynamic and engaging online platform showcasing professional skills, projects, experiences, and recommendations",
-    technologies: "React.js · Tailwind CSS · UI React",
+    technologies: "React.js · Tailwind CSS · UI React · JavaScript · HTML · CSS",
     link: "https://davisco.vercel.app/",
     repo: "https://github.com/Dhavisco/MyPortfolio",
   },
