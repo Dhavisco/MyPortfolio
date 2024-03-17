@@ -82,7 +82,7 @@ export const Experiences = [
     date: "Jul 2022 - Jun 2023",
     title: "Human Capital Intern",
     skills:
-      "Headshot Photography · IT Support · New Hire Onboarding · Assessment · HRIS · Human Capital Management · Recruitment",
+      "Headshot Photography · IT Support · New Hire Onboarding · Assessment · HRIS · Human Capital Management · Recruitment · Collaboration  · Analytical Skills",
     description:
       "Assisted in the Recruitment and Onboarding of staff in the firm",
   },

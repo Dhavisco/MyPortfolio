@@ -17,7 +17,7 @@ const ContactForm = ({ onSuccess }) => {
     return (
       <>
         <p className="font-[Poppins] lg:text-base text-sm font-light text-left">
-          Thanks for Reaching out! I will respond as soon as possible
+          Thank you for Reaching out! I will respond as soon as possible
         </p>
         <div className="flex justify-center mt-7">
           <img src={img} alt="" loading="lazy" className="h-[17rem] rounded-full" />
