@@ -1,15 +1,15 @@
 import { BsPuzzle } from "react-icons/bs";
 import { TbWritingSign } from "react-icons/tb";
 import {
-    FaXTwitter,
-    FaLinkedinIn,
-    FaGithub,
+  FaXTwitter,
+  FaLinkedinIn,
+  FaGithub,
   FaReact,
   FaRankingStar,
   FaPalette,
-    FaCss3,
-    FaInstagram,
-    FaLink,
+  FaCss3,
+  FaInstagram,
+  FaLink,
 } from "react-icons/fa6";
 import {
   SiTailwindcss,
@@ -30,7 +30,8 @@ import {
   SiGit,
   SiVisualstudiocode,
   SiSqlite,
-  SiWordpress,SiCplusplus
+  SiWordpress,
+  SiCplusplus,
 } from "react-icons/si";
 
 export const About = [
@@ -156,7 +157,8 @@ export const Certification = [
   },
 ];
 
-export const certLink = "https://www.linkedin.com/in/dhavisco/details/certifications/";
+export const certLink =
+  "https://www.linkedin.com/in/dhavisco/details/certifications/";
 
 export const Projects = [
   {
@@ -180,7 +182,8 @@ export const Projects = [
     title: "Portfolio",
     description:
       "My portfolio web application serves as a dynamic and engaging online platform showcasing professional skills, projects, experiences, and recommendations",
-    technologies: "React.js · Tailwind CSS · UI React · JavaScript · HTML · CSS",
+    technologies:
+      "React.js · Tailwind CSS · UI React · JavaScript · HTML · CSS",
     link: "https://davisco.vercel.app/",
     repo: "https://github.com/Dhavisco/MyPortfolio",
   },
@@ -224,7 +227,6 @@ export const Projects = [
 export const githubRepo = "https://github.com/Dhavisco?tab=repositories";
 
 export const Recommendations = [
-  
   {
     name: "Busola Francisca Martins PHRi, ACIPM",
     date: "December 8, 2023",
@@ -257,7 +259,8 @@ export const Recommendations = [
   {
     name: "Folajomi Agoro",
     date: "August 2, 2023",
-    title: "Senior Associate Facility | Project Management | Building Data Analyst | Freelance Writer | Sports Enthusiast",
+    title:
+      "Senior Associate Facility | Project Management | Building Data Analyst | Freelance Writer | Sports Enthusiast",
     desc: "David Olaniyi is hard working, team oriented and always provided prompt feedback on assigned tasks when necessary. I had the pleasure of working with him in a number of cross departmental engagements for a year and I will highly recommend him for any future roles as he is always willing to learn and improve.",
   },
 ];
@@ -269,108 +272,108 @@ export const tools = [
   {
     name: "React",
     svg: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-    icon: <SiReact />,
+    icon: <SiReact className="text-[#61DAFB]" />,
   },
   {
     name: "Python",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-    icon: <SiPython />,
+    icon: <SiPython className="text-[#3776AB]" />,
   },
   {
     name: "JavaScript",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-    icon: <SiJavascript />,
+    icon: <SiJavascript className="text-[#F7DF1E]" />,
   },
   {
     name: "TypeScript",
     svg: "https://raw.githubusercontent.com/wappalyzer/wappalyzer/master/src/drivers/webextension/images/icons/TypeScript.svg",
-    icon: <SiTypescript />,
+    icon: <SiTypescript className="text-[#3178C6]" />,
   },
   {
     name: "PHP",
     svg: "https://www.vectorlogo.zone/logos/php/php-icon.svg",
-    icon: <SiPhp />,
+    icon: <SiPhp className="text-[#777BB4]" />,
   },
   {
     name: "HTML",
     svg: "https://raw.githubusercontent.com/uiwjs/file-icons/master/icon/html.svg",
-    icon: <SiHtml5 />,
+    icon: <SiHtml5 className="text-[#E34F26]" />,
   },
   {
     name: "CSS",
     svg: "https://raw.githubusercontent.com/manuelbieh/logo-file-icons/master/icons/css.svg",
-    icon: <FaCss3 />,
+    icon: <FaCss3 className="text-[#1572B6]" />,
   },
   {
     name: "TailwindCss",
     svg: "https://raw.githubusercontent.com/bestofjs/bestofjs-webui/master/public/logos/tailwindcss.dark.svg",
-    icon: <SiTailwindcss />,
+    icon: <SiTailwindcss className="text-[#06B6D4]" />,
   },
   {
     name: "Bootstrap",
     svg: "https://raw.githubusercontent.com/get-icon/geticon/master/icons/bootstrap.svg",
-    icon: <SiBootstrap />,
+    icon: <SiBootstrap className="text-[#7952B3]" />,
   },
   {
     name: "Vite",
     svg: "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/vitejs.svg",
-    icon: <SiVite />,
+    icon: <SiVite className="text-[#646CFF]" />,
   },
   {
     name: "Git",
     svg: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_git2.svg",
-    icon: <SiGit />,
+    icon: <SiGit className="text-[#F05032]" />,
   },
   {
     name: "NPM",
     svg: "https://raw.githubusercontent.com/leungwensen/svg-icon/master/dist/svg/logos/npm.svg",
-    icon: <SiNpm />,
+    icon: <SiNpm className="text-[#CB3837]" />,
   },
   {
     name: "Yarn",
     svg: "https://raw.githubusercontent.com/leungwensen/svg-icon/master/dist/svg/logos/npm.svg",
-    icon: <SiYarn />,
+    icon: <SiYarn className="text-[#2C8EBB]" />,
   },
   {
     name: "VsCode",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    icon: <SiVisualstudiocode />,
+    icon: <SiVisualstudiocode className="text-[#007ACC]" />,
   },
   {
     name: "Figma",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    icon: <SiFigma />,
+    icon: <SiFigma className="text-[#A259FF]" />,
   },
   {
     name: "Next Js",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    icon: <SiNextdotjs />,
+    icon: <SiNextdotjs className="text-[#FFFFFF]" />,
   },
   {
     name: "FireBase",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    icon: <SiFirebase />,
+    icon: <SiFirebase className="text-[#FFCA28]" />,
   },
   {
     name: "Mongo Db",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    icon: <SiMongodb />,
+    icon: <SiMongodb className="text-[#47A248]" />,
   },
   {
     name: "SQL",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    icon: <SiSqlite />,
+    icon: <SiSqlite className="text-[#003B57]" />,
   },
   {
     name: "WordPress",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    icon: <SiWordpress />,
+    icon: <SiWordpress className="text-[#21759B]" />,
   },
 
   {
     name: "C++",
     svg: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    icon: <SiCplusplus />,
+    icon: <SiCplusplus className="text-[#00599C]" />,
   },
 ];
 

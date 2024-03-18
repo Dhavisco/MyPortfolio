@@ -317,7 +317,10 @@ const Resume = () => {
                     key={key}
                     className="cursor-pointer hover:text-2xl"
                   >
-                    <div className="flex items-center flex-col lg:text-4xl text-md">
+                    <div
+                      className="flex items-center flex-col lg:text-4xl text-md"
+                      style={{ color: val.color }}
+                    >
                       {val.icon}{" "}
                       <div className="font['Inter'] cursor-pointer text-xs font-thin py-1">
                         {val.name}
