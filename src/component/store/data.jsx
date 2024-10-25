@@ -32,6 +32,7 @@ import {
   SiSqlite,
   SiWordpress,
   SiCplusplus,
+  SiGoogledatastudio,
 } from "react-icons/si";
 
 export const About = [
@@ -64,8 +65,8 @@ export const Stack = [
     icon: <TbWritingSign color="#679d7f" />,
   },
   {
-    name: "Graphics Design",
-    icon: <FaPalette color="#00749C" />,
+    name: "Data Analytics",
+    icon: <SiGoogledatastudio color="#00749C" />,
   },
   {
     name: "Web Development",
@@ -128,7 +129,7 @@ export const Education = [
     institution: "Yaba College of Technology, Yaba, Lagos ",
     date: "May 2023 - Present",
     title: "Higher National Diploma, Computer Science",
-    grade: "",
+    grade: "Grade: Distinction",
   },
   {
     institution: "Yaba College of Technology, Yaba, Lagos ",
@@ -139,6 +140,14 @@ export const Education = [
 ];
 
 export const Certification = [
+  {
+    course: "Google Data Analytics Professional Certificate ",
+    date: "Issued May 2024",
+    title: "Google",
+    skills:
+      "Data Aggregation · Data Analytics · Data Cleaning · Data Visualization · Spreadsheets · SQL · Presentations",
+    link: "https://coursera.org/share/d5b962b73e349409b85693bc8b55edd6",
+  },
   {
     course: "Google IT Support Professional Certificate ",
     date: "Issued Jul 2023",
@@ -161,6 +170,24 @@ export const certLink =
   "https://www.linkedin.com/in/dhavisco/details/certifications/";
 
 export const Projects = [
+  {
+    title: "BankApp",
+    description:
+      "This is a financial services web application where users can securely log in, sign up, and manage their financial activities.",
+    technologies:
+      "React.js · TypeScript · React Query · API Fetch (Postman) · TailwindCss · Formik/Yup",
+    link: "https://bank-app-gamma-five.vercel.app/",
+    repo: "https://github.com/Dhavisco/BankApp",
+  },
+  {
+    title: "CropsDss",
+    description:
+      "This is a farmer's decision support system that recommends crops based on weather forecast in their area.",
+    technologies:
+      "React.js · JavaScript · API Fetch (FAST API) · TailwindCss",
+    link: "https://cropsdss.vercel.app/",
+    repo: "https://github.com/Dhavisco/Farmer-s-DSS-System-based-on-weather-forecasting",
+  },
   {
     title: "ReactMeal",
     description:
