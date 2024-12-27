@@ -141,6 +141,14 @@ export const Education = [
 
 export const Certification = [
   {
+    course: "Google Advanced Data Analytics Professional Certificate ",
+    date: "Issued Nov 2024",
+    title: "Google",
+    skills:
+      "Data Aggregation · Data Analytics · Data Cleaning · Data Visualization · Tableau · Presentations",
+    link: "https://coursera.org/share/d5b962b73e349409b85693bc8b55edd6",
+  },
+  {
     course: "Google Data Analytics Professional Certificate ",
     date: "Issued May 2024",
     title: "Google",
@@ -171,6 +179,14 @@ export const certLink =
 
 export const Projects = [
   {
+    title: "MovieZone",
+    description:
+      "A modern and responsive movie application showcasing trending and regular movies. This app features a carousel for trending movies, bookmarking functionality, and an intuitive user interface designed for a seamless experience.",
+    technologies: "Next.js · TypeScript · TailwindCSS · Formik/Yup",
+    link: "https://movieezone.vercel.app/",
+    repo: "https://github.com/Dhavisco/entertainment-app",
+  },
+  {
     title: "BankApp",
     description:
       "This is a financial services web application where users can securely log in, sign up, and manage their financial activities.",
@@ -183,8 +199,7 @@ export const Projects = [
     title: "CropsDss",
     description:
       "This is a farmer's decision support system that recommends crops based on weather forecast in their area.",
-    technologies:
-      "React.js · JavaScript · API Fetch (FAST API) · TailwindCss",
+    technologies: "React.js · JavaScript · API Fetch (FAST API) · TailwindCss",
     link: "https://cropsdss.vercel.app/",
     repo: "https://github.com/Dhavisco/Farmer-s-DSS-System-based-on-weather-forecasting",
   },
