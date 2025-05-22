@@ -1,5 +1,5 @@
 import { socials } from "../store/data";
-import img from "../../assets/Davisco.jpg"
+import img from "../../assets/Davisco.jpg";
 
 const Footer = () => {
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
           ))}
         </p>
         <div className="text-xs text font-light md:text-sm">
-          &copy;2024 Davisco. All rights reserved.
+          &copy;2025 Davisco. All rights reserved.
         </div>
       </div>
     </section>

@@ -1,12 +1,10 @@
 import { BsPuzzle } from "react-icons/bs";
-import { TbWritingSign } from "react-icons/tb";
+import { TbDeviceMobile, TbWorldLongitude } from "react-icons/tb";
 import {
   FaXTwitter,
   FaLinkedinIn,
   FaGithub,
   FaReact,
-  FaRankingStar,
-  FaPalette,
   FaCss3,
   FaInstagram,
   FaLink,
@@ -32,18 +30,19 @@ import {
   SiSqlite,
   SiWordpress,
   SiCplusplus,
-  SiGoogledatastudio,
 } from "react-icons/si";
 
 export const About = [
   {
     about: `I'm David Olaniyi, a frontend engineer with expertise in web development, technical writing, and IT support. Possessing a broad range of abilities and a talent for resolving issues, I perform best in dynamic settings that foster creativity and innovation.
 
-My specialty is creating solutions with a stack that consists of majorly JavaScript, Python, c++, and other OOP languages with frameworks. Creating user-friendly interfaces, building software, or offering technical support are just a couple of the ways I'm dedicated to exceeding clients' expectations with my work.  My interpersonal skills are reliable, and I am competent at communicating with different kinds of stakeholders.
+My specialty is creating solutions with a stack that consists of majorly JavaScript, Python, and other OOP languages with frameworks. Creating user-friendly interfaces, building software, or offering technical support are just a couple of the ways I'm dedicated to exceeding clients' expectations with my work.  My interpersonal skills are reliable, and I am competent at communicating with different kinds of stakeholders.
 `,
   },
   {
-    more: `Through my internship in HR at a consulting firm (PwC Nigeria), I have worked with individuals from a variety of cultural backgrounds and gained experience in developing solutions to fit their unique needs.  I'm driven by a passion for excellence and constantly willing to take on new tasks and broaden my perspectives `,
+    more: `Through my internship in HR at a consulting firm (PwC Nigeria) and remote roles, I have worked with individuals from a variety of cultural backgrounds, timezones and gained experience in developing solutions to fit their unique needs.  I'm driven by a passion for excellence and constantly willing to take on new tasks and broaden my perspectives.
+    My core technical skills include frontend development (HTML5, CSS3, JavaScript ES6+, TypeScript), frameworks and libraries (React.js, Next.js, Zustand, Redux, React Query), UI/UX implementation (Tailwind CSS, Bootstrap, Shadcn, Framer Motion), API integration and authentication (Axios, NextAuth, Firebase, Supabase), backend fundamentals (Node.js, Express.js, MongoDB with Mongoose, SQL with Sequelize), and version control and collaboration (Git, GitHub).
+    `,
   },
   {
     extra: ` Let's get in touch and discuss how we can use creativity, imagination, and technical expertise to make your projects come to life!`,
@@ -55,30 +54,52 @@ export const Stack = [
     name: "Frontend Engineering",
     icon: <BsPuzzle color="#57518b" />,
   },
+
   {
-    name: "IT Support",
-    icon: <FaRankingStar color="#445445" />,
+    name: "Web Application",
+    icon: <TbWorldLongitude color="#679d7f" />,
   },
 
   {
-    name: "Technical Writing",
-    icon: <TbWritingSign color="#679d7f" />,
+    name: "Mobile Application",
+    icon: <TbDeviceMobile color="#00749C" />,
   },
-  {
-    name: "Data Analytics",
-    icon: <SiGoogledatastudio color="#00749C" />,
-  },
+
+  // {
+  //   name: "IT Support",
+  //   icon: <FaRankingStar color="#445445" />,
+  // },
+
+  // {
+  //   name: "Technical Writing",
+  //   icon: <TbWritingSign color="#679d7f" />,
+  // },
+  // {
+  //   name: "Data Analytics",
+  //   icon: <SiGoogledatastudio color="#00749C" />,
+  // },
   {
     name: "Web Development",
     icon: [<FaReact color="#da9797" key="reactIcon" />],
   },
-  {
-    name: "UI/UX Design",
-    icon: <FaPalette color="#00749C" />,
-  },
+  // {
+  //   name: "UI/UX Design",
+  //   icon: <FaPalette color="#00749C" />,
+  // },
 ];
 
 export const Experiences = [
+  {
+    institution:
+      "Databox Technologies - Atlanta, Georgia, United States · Remote",
+    date: "Jan 2025 - Present",
+    title: "Frontend Engineer Intern",
+    skills:
+      "Collaboration · Analytical Skills · Frontend Development · React.js · TypeScript · Research · Automation · Problem Solving",
+    description:
+      "I am currently working as a Frontend Engineer Intern at Databox Technologies. I work directly with the CEO of Fostr, where I am responsible for developing and maintaining web applications, websites, Conducted data analysis and market research, leading to the addition of new community members(Fostr). I collaborate with cross-functional teams to deliver software solutions.",
+  },
+
   {
     institution: "PwC Nigeria ",
     date: "Jul 2022 - Jun 2023",
@@ -127,7 +148,7 @@ export const Experiences = [
 export const Education = [
   {
     institution: "Yaba College of Technology, Yaba, Lagos ",
-    date: "May 2023 - Present",
+    date: "May 2023 - May 2025",
     title: "Higher National Diploma, Computer Science",
     grade: "Grade: Distinction",
   },
@@ -186,6 +207,24 @@ export const Projects = [
     link: "https://movieezone.vercel.app/",
     repo: "https://github.com/Dhavisco/entertainment-app",
   },
+
+  {
+    title: "Shortly",
+    description: "A web application that shorten any valid URL.",
+    technologies:
+      "React.js · TypeScript · TailwindCSS · React Query · API Integration",
+    link: "https://daveshortly.vercel.app/",
+    repo: "https://github.com/Dhavisco/entertainment-app",
+  },
+
+  {
+    title: "AR",
+    description: "A simple wedding invite webpage",
+    technologies: "HTML · CSS · JavaScript",
+    link: "https://ar-weddinginvite.vercel.app/",
+    repo: "https://github.com/Dhavisco/AR",
+  },
+
   {
     title: "BankApp",
     description:
@@ -269,6 +308,14 @@ export const Projects = [
 export const githubRepo = "https://github.com/Dhavisco?tab=repositories";
 
 export const Recommendations = [
+  {
+    name: "Ifelunwa Ada",
+    date: "May 18, 2025",
+    title:
+      "Technical Account Manager at Oracle | Cloud Practitioner | Solutions Consultant",
+    desc: "It was a pleasure working with David during a product hackathon at FOSTR, David demonstrated exceptional resilience, intelligence, and a proactive approach to problem-solving. Even when team morale dipped, David remained a consistent and uplifting force, always ready to tackle challenges and propose innovative solutions. His technical skills shone through in building a polished, user-friendly landing page for our application, which played a key role in our hackathon success. David’s dedication, collaborative spirit, and ability to deliver under pressure makes him an outstanding candidate for any team. I highly recommend him for any role where creativity and dependability are valued.",
+  },
+
   {
     name: "Busola Francisca Martins PHRi, ACIPM",
     date: "December 8, 2023",
