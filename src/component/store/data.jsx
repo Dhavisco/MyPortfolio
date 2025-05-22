@@ -34,14 +34,14 @@ import {
 
 export const About = [
   {
-    about: `I'm David Olaniyi, a frontend engineer with expertise in web development, technical writing, and IT support. Possessing a broad range of abilities and a talent for resolving issues, I perform best in dynamic settings that foster creativity and innovation.
+    about: `I'm David Olaniyi, a frontend engineer with expertise in web and mobile development. Possessing a broad range of abilities and a talent for resolving issues, I perform best in dynamic settings that foster creativity and innovation.
 
 My specialty is creating solutions with a stack that consists of majorly JavaScript, Python, and other OOP languages with frameworks. Creating user-friendly interfaces, building software, or offering technical support are just a couple of the ways I'm dedicated to exceeding clients' expectations with my work.  My interpersonal skills are reliable, and I am competent at communicating with different kinds of stakeholders.
 `,
   },
   {
     more: `Through my internship in HR at a consulting firm (PwC Nigeria) and remote roles, I have worked with individuals from a variety of cultural backgrounds, timezones and gained experience in developing solutions to fit their unique needs.  I'm driven by a passion for excellence and constantly willing to take on new tasks and broaden my perspectives.
-    My core technical skills include frontend development (HTML5, CSS3, JavaScript ES6+, TypeScript), frameworks and libraries (React.js, Next.js, Zustand, Redux, React Query), UI/UX implementation (Tailwind CSS, Bootstrap, Shadcn, Framer Motion), API integration and authentication (Axios, NextAuth, Firebase, Supabase), backend fundamentals (Node.js, Express.js, MongoDB with Mongoose, SQL with Sequelize), and version control and collaboration (Git, GitHub).
+    My core technical skills include frontend development (HTML5, CSS3, JavaScript ES6+, TypeScript), frameworks and libraries (React.js, React Native, Next.js, Zustand, Redux, React Query), UI/UX implementation (Tailwind CSS, Bootstrap, Shadcn, Framer Motion), API integration and authentication (Axios, NextAuth, Firebase, Supabase), backend fundamentals (Node.js, Express.js, MongoDB with Mongoose, SQL with Sequelize), and version control and collaboration (Git, GitHub).
     `,
   },
   {
