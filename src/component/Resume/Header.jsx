@@ -4,7 +4,6 @@ import img from "../../assets/myimage.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-
   const coffeeLink = "https://www.buymeacoffee.com/davisco";
 
   return (
@@ -13,7 +12,8 @@ const Header = () => {
         <div className="flex flex-col mb-4 gap-y-1">
           <img
             src={img}
-            alt="img" loading="lazy"
+            alt="img"
+            loading="lazy"
             className="flex items-center place-content-center rounded-full lg:h-[11rem] lg:w-[8rem] h-[5rem] w-[4rem] cursor-pointer"
           />
           <Link
@@ -28,10 +28,13 @@ const Header = () => {
             {" "}
             <span>
               {" "}
-              <Link to="/" className="cursor-pointer hover:text-green-500 transition-colors duration-300 ease-in-out">
+              <Link
+                to="/"
+                className="cursor-pointer hover:text-green-500 text-green-400 transition-colors duration-300 ease-in-out"
+              >
                 @Davisco
               </Link>{" "}
-              <span className="text-green-400">&nbsp;¤ &nbsp;Lagos, Nigeria. </span>
+              {/* <span className="text-green-400">&nbsp;¤ &nbsp;Lagos, Nigeria. </span> */}
             </span>
           </div>
         </div>
@@ -66,6 +69,5 @@ const Header = () => {
     </>
   );
 };
-
 
 export default Header;
