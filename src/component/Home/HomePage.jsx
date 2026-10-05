@@ -35,7 +35,8 @@ const HomePage = () => {
       <div className="text-s flex flex-col items-center bg-cover font-[Poppins]">
         <img
           src={img}
-          alt="David Olaniyi" loading="lazy"
+          alt="David Olaniyi"
+          loading="lazy"
           className="flex mx-auto w-[10rem] h-[13rem] md:w-[10rem] md:h-[14rem] object-cover rounded-full border-gray-500"
         />
 
@@ -53,9 +54,9 @@ const HomePage = () => {
               writer.typeString("A Tech Enthusiast...");
               writer.pauseFor(5000);
               writer.deleteAll();
-              writer.typeString("IT Support Specialist...");
-              writer.pauseFor(5000);
-              writer.deleteAll();
+              // writer.typeString("");
+              // writer.pauseFor(5000);
+              // writer.deleteAll();
 
               writer.typeString("An Open Source Contributor...");
               writer.pauseFor(5000).start();

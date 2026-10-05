@@ -90,14 +90,23 @@ export const Stack = [
 
 export const Experiences = [
   {
+    institution: "PwC Nigeria",
+    date: "Jan 2026 - Present",
+    title: "IT Risk Assurance",
+    skills:
+      "IT Audit · Analytical Skills · ITGC Controls · Audit · Collaboration · Research · Testing · Problem Solving",
+    description:
+      "I am currently working as an IT Risk Assurance at PwC Nigeria. I work directly with the IT Audit team, where I am responsible for conducting IT audits, testing ITGC controls, and providing recommendations for improvement. I collaborate with cross-functional teams to deliver IT audit solutions.",
+  },
+  {
     institution:
       "Databox Technologies - Atlanta, Georgia, United States · Remote",
-    date: "Jan 2025 - Present",
-    title: "Frontend Engineer Intern",
+    date: "Jan 2025 - Jan 2026",
+    title: "Frontend Engineer",
     skills:
       "Collaboration · Analytical Skills · Frontend Development · React.js · TypeScript · Research · Automation · Problem Solving",
     description:
-      "I am currently working as a Frontend Engineer Intern at Databox Technologies. I work directly with the CEO of Fostr, where I am responsible for developing and maintaining web applications, websites, Conducted data analysis and market research, leading to the addition of new community members(Fostr). I collaborate with cross-functional teams to deliver software solutions.",
+      "I worked as a Frontend Engineer at Databox Technologies. I worked directly with the CEO of Fostr, where I am responsible for developing and maintaining web applications, websites, Conducted data analysis and market research, leading to the addition of new community members(Fostr). I collaborate with cross-functional teams to deliver software solutions.",
   },
 
   {
@@ -146,6 +155,12 @@ export const Experiences = [
 ];
 
 export const Education = [
+  {
+    institution: "Babcock University, Ilishan-Remo, Ogun State",
+    date: "Sept 2026 - Present",
+    title: "B.Sc., Computer Science",
+    grade: "",
+  },
   {
     institution: "Yaba College of Technology, Yaba, Lagos ",
     date: "May 2023 - May 2025",
@@ -200,6 +215,16 @@ export const certLink =
 
 export const Projects = [
   {
+    title: "Norbs",
+    description:
+      " An event and entertainment ticketing web application that enables users to discover events, bridging the gap between experience creators (event organizers, tour operators, and hotels) and individuals seeking curated experiences.",
+    technologies:
+      "React.js · TypeScript · TailwindCSS · Formik/Yup · Framer Motion · React Query · Zustand ·  API Integration",
+    link: "https://norbs.vercel.app/",
+    repo: "",
+  },
+
+  {
     title: "MovieZone",
     description:
       "A modern and responsive movie application showcasing trending and regular movies. This app features a carousel for trending movies, bookmarking functionality, and an intuitive user interface designed for a seamless experience.",
@@ -214,7 +239,7 @@ export const Projects = [
     technologies:
       "React.js · TypeScript · TailwindCSS · React Query · API Integration",
     link: "https://daveshortly.vercel.app/",
-    repo: "https://github.com/Dhavisco/entertainment-app",
+    repo: "https://github.com/Dhavisco/URL-Shortener",
   },
 
   {
