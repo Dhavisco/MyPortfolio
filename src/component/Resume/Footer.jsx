@@ -23,7 +23,7 @@ const Footer = () => {
           ))}
         </p>
         <div className="text-xs text font-light md:text-sm">
-          &copy;2025 Davisco. All rights reserved.
+          &copy;2026 Davisco. All rights reserved.
         </div>
       </div>
     </section>
